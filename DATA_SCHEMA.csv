@@ -1,0 +1,40 @@
+variable,type,description,allowed_values,required
+Wiek,numeric,Baseline age in years,,yes
+Płeć,string,Baseline sex coding used in the supplied models,K=female; M=male,yes
+HADS - LĘK_1,integer,anxiety score; assessment 1,0–21,yes
+HADS - LĘK_1_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - LĘK_2,integer,anxiety score; assessment 2,0–21,yes
+HADS - LĘK_2_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - DEPRESJA_1,integer,depression score; assessment 1,0–21,yes
+HADS - DEPRESJA_1_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - DEPRESJA_2,integer,depression score; assessment 2,0–21,yes
+HADS - DEPRESJA_2_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - AGRESJA_1,integer,irritability score; assessment 1,0–6,yes
+HADS - AGRESJA_1_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - AGRESJA_2,integer,irritability score; assessment 2,0–6,yes
+HADS - AGRESJA_2_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - OGÓLNY_1,integer,total score; assessment 1,0–48,yes
+HADS - OGÓLNY_1_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+HADS - OGÓLNY_2,integer,total score; assessment 2,0–48,yes
+HADS - OGÓLNY_2_sten,integer,Stored category code; exact whitespace/case may vary. Total codes are used internally only for the archived Holm family.,1; 2; 3,optional; required to recover the archived category family
+1_VIVUS SC logMAR,numeric,"Recorded uncorrected acuity at eye visit 1; use as recorded, no conversion",,yes
+1_VIVUS SC DECIMAL,numeric,"Recorded uncorrected acuity at eye visit 1; use as recorded, no conversion",,yes
+1_VIVUS CC logMAR,numeric,"Recorded corrected acuity at eye visit 1; use as recorded, no conversion",,yes
+1_VIVUS CC DECIMAL,numeric,"Recorded corrected acuity at eye visit 1; use as recorded, no conversion",,yes
+CRT_1,numeric,Central retinal thickness at eye visit 1; retain source units,,yes
+POCZUCIE KONTRASTU_1,numeric,Contrast sensitivity at eye visit 1; retain source units,,yes
+2_VIVUS SC logMAR,numeric,"Recorded uncorrected acuity at eye visit 2; use as recorded, no conversion",,yes
+2_VIVUS SC DECIMAL,numeric,"Recorded uncorrected acuity at eye visit 2; use as recorded, no conversion",,yes
+2_VIVUS CC logMAR,numeric,"Recorded corrected acuity at eye visit 2; use as recorded, no conversion",,yes
+2_VIVUS CC DECIMAL,numeric,"Recorded corrected acuity at eye visit 2; use as recorded, no conversion",,yes
+CRT_2,numeric,Central retinal thickness at eye visit 2; retain source units,,yes
+POCZUCIE KONTRASTU_2,numeric,Contrast sensitivity at eye visit 2; retain source units,,yes
+3_VIVUS SC logMAR,numeric,"Recorded uncorrected acuity at eye visit 3; use as recorded, no conversion",,yes
+3_VIVUS SC DECIMAL,numeric,"Recorded uncorrected acuity at eye visit 3; use as recorded, no conversion",,yes
+3_VIVUS CC logMAR,numeric,"Recorded corrected acuity at eye visit 3; use as recorded, no conversion",,yes
+3_VIVUS CC DECIMAL,numeric,"Recorded corrected acuity at eye visit 3; use as recorded, no conversion",,yes
+CRT_3,numeric,Central retinal thickness at eye visit 3; retain source units,,yes
+POCZUCIE KONTRASTU_3,numeric,Contrast sensitivity at eye visit 3; retain source units,,yes
+TEST AMSLERA_1,string,Amsler category at eye visit 1,BRAK METAMORFOPSJI | OBECNOŚĆ METAMORFOPSJI | OBECNOŚĆ MROCZKA | OBECNOŚĆ MROCZKA I METAMORFOPSJI,yes
+TEST AMSLERA_3,string,Amsler category at eye visit 3,BRAK METAMORFOPSJI | OBECNOŚĆ METAMORFOPSJI | OBECNOŚĆ MROCZKA | OBECNOŚĆ MROCZKA I METAMORFOPSJI,yes
+visual_conflict,boolean,Private custodian flag for the two visual-acuity conflicts. The participant mapping is not distributed.,true; false; 1; 0,yes

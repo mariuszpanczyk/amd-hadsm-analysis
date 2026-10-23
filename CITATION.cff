@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: Please cite this analysis-code release using the metadata below.
+type: software
+title: 'AMD / HADS-M: de novo statistical analysis code'
+version: 1.0.2
+authors:
+- family-names: Nowak
+  given-names: Marta
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+- family-names: Cybulska
+  given-names: Anna Maria
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+- family-names: Grochans
+  given-names: Elżbieta
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+- family-names: Schneider-Matyka
+  given-names: Daria
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+- family-names: Panczyk
+  given-names: Mariusz
+  affiliation: Department of Education and Research in Health Sciences, Faculty of Health Sciences, Medical
+    University of Warsaw, Poland
+- family-names: Królikowska
+  given-names: Adrianna
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+- family-names: Rachubińska
+  given-names: Kamila
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+contact:
+- family-names: Cybulska
+  given-names: Anna Maria
+  email: anna.cybulska@pum.edu.pl
+  affiliation: Department of Nursing, Faculty of Health Sciences, Pomeranian Medical University in Szczecin,
+    Poland
+abstract: Code-only documentation of the AMD/HADS-M analysis. No participant-level data or executed outputs
+  are distributed. Numerical execution requires authorized private input.
+keywords:
+- HADS-M
+- age-related macular degeneration
+- statistical analysis
+- research transparency
+- Python
+license: CC-BY-4.0

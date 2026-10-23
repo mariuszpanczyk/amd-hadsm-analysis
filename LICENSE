@@ -1,0 +1,30 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+SPDX-License-Identifier: CC-BY-4.0
+
+AMD / HADS-M: de novo statistical analysis code and documentation
+
+Unless a file is expressly marked otherwise, the original analysis code,
+notebook and accompanying documentation distributed in this repository are
+licensed under the Creative Commons Attribution 4.0 International License.
+
+The full, unmodified legal terms are incorporated by reference:
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+License overview:
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution: retain the supplied creator and copyright notices, identify the
+license, provide a link to it, and indicate modifications as required by the
+license. Creator and citation metadata are supplied in CITATION.cff.
+This notice does not establish ownership beyond rights actually held by the
+licensors and does not modify the standard CC BY 4.0 terms.
+
+Scope clarification:
+Participant-level data, private databases, and patient-level diagnostics are
+not distributed or licensed by this repository. Third-party software,
+questionnaires, trademarks and other third-party materials retain their own
+rights and licenses. No endorsement by Frontiers is implied.
+
+This is a license notice incorporating the official legal code by reference,
+not a reproduction of the full legal code. The official license includes its
+warranty disclaimer and limitation of liability.
